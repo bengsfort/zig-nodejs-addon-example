@@ -1,0 +1,18 @@
+{
+  "name": "zig-nodejs-addon-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-headers": "node-gyp install --verbose",
+    "list-headers": "node-gyp list --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "node-gyp": "^12.1.0"
+  }
+}
